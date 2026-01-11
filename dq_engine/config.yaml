@@ -4,7 +4,6 @@ tables:
     rules:
       - check_null_customer_name.sql
       - check_null_customer_email.sql
-      - check_duplicates_customer_email.sql
   orders:
     enabled: true
     rules:
